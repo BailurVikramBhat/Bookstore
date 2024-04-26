@@ -1,0 +1,303 @@
+{
+  "allBooks": [
+    {
+      "bookId": 1,
+      "title": "To Kill a Mockingbird",
+      "cover": "assets/images/to-kill-a-mocking-bird.jpg",
+      "author": {
+        "authorId": 1,
+        "authorName": "Harper Lee",
+        "birthDate": "1926-04-28",
+        "deathDate": "2016-02-19",
+        "biography": "Harper Lee was an American novelist widely known for her novel 'To Kill a Mockingbird', which deals with the issues of racism that she observed as a child in her hometown of Monroeville, Alabama."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "1960-07-11",
+      "isbn": "9780061120084",
+      "publisher": {
+        "publisherId": 1,
+        "publisherName": "HarperCollins",
+        "foundedDate": "1989-06-01",
+        "hqLocation": "New York, USA"
+      },
+      "edition": "50th Anniversary Edition",
+      "language": "English",
+      "pageCount": 336,
+      "format": "Paperback",
+      "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature. The novel is set in the fictional town of Maycomb, Alabama, during the Great Depression, and is narrated by Jean Louise 'Scout' Finch, as she remembers events that occurred when she was six to nine years old.",
+      "averageRating": 4.5,
+      "numberOfRatings": 500,
+      "price": 12.99,
+      "availability": "In Stock"
+    },
+    {
+      "bookId": 2,
+      "title": "1984",
+      "cover": "assets/images/1984.jpg",
+      "author": {
+        "authorId": 2,
+        "authorName": "George Orwell",
+        "birthDate": "1903-06-25",
+        "deathDate": "1950-01-21",
+        "biography": "George Orwell, whose real name was Eric Arthur Blair, was an English novelist, essayist, journalist, and critic. His work is marked by keen intelligence and wit, a profound awareness of social injustice, an intense opposition to totalitarianism, and a passion for clarity in language."
+      },
+      "genre": {
+        "genreId": 2,
+        "genreName": "Dystopian Fiction"
+      },
+      "publicationDate": "1949-06-08",
+      "isbn": "9780452284234",
+      "publisher": {
+        "publisherId": 2,
+        "publisherName": "Penguin Books",
+        "foundedDate": "1935-07-30",
+        "hqLocation": "London, UK"
+      },
+      "edition": "Reprint Edition",
+      "language": "English",
+      "pageCount": 328,
+      "format": "Paperback",
+      "description": "1984, published in 1949, is a dystopian novel by George Orwell that examines the terrifying possibilities of a totalitarian regime. The story is set in a future world where a government, referred to as 'the Party,' exercises complete control over the lives of its citizens. The novel follows the life of Winston Smith, a low-ranking member of the Party, as he rebels against the oppressive system.",
+      "averageRating": 4.6,
+      "numberOfRatings": 600,
+      "price": 10.99,
+      "availability": "In Stock"
+    },
+    {
+      "bookId": 3,
+      "title": "The Great Gatsby",
+      "cover": "assets/images/the-great-gatsby.jpg",
+      "author": {
+        "authorId": 3,
+        "authorName": "F. Scott Fitzgerald",
+        "birthDate": "1896-09-24",
+        "deathDate": "1940-12-21",
+        "biography": "F. Scott Fitzgerald was an American novelist and short-story writer, known for his depictions of the Jazz Age (the 1920s). He is regarded as one of the greatest American writers of the 20th century."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "1925-04-10",
+      "isbn": "9780743273565",
+      "publisher": {
+        "publisherId": 3,
+        "publisherName": "Scribner",
+        "foundedDate": "1846-01-01",
+        "hqLocation": "New York, USA"
+      },
+      "edition": "Reissue Edition",
+      "language": "English",
+      "pageCount": 180,
+      "format": "Paperback",
+      "description": "The Great Gatsby, published in 1925, is a novel by American author F. Scott Fitzgerald. It is set in the fictional town of West Egg on Long Island in the summer of 1922. The story primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession with the beautiful former debutante Daisy Buchanan.",
+      "averageRating": 4.3,
+      "numberOfRatings": 400,
+      "price": 9.99,
+      "availability": "In Stock"
+    },
+    {
+      "bookId": 4,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "cover": "assets/images/hp-sorcerer-stone.jpg",
+      "author": {
+        "authorId": 4,
+        "authorName": "J.K. Rowling",
+        "birthDate": "1965-07-31",
+        "deathDate": null,
+        "biography": "J.K. Rowling is a British author, best known for creating the Harry Potter fantasy series. The books have gained worldwide attention, won multiple awards, and sold more than 500 million copies, becoming the best-selling book series in history."
+      },
+      "genre": {
+        "genreId": 4,
+        "genreName": "Fantasy"
+      },
+      "publicationDate": "1997-06-26",
+      "isbn": "9780590353427",
+      "publisher": {
+        "publisherId": 4,
+        "publisherName": "Bloomsbury Publishing",
+        "foundedDate": "1986-12-16",
+        "hqLocation": "London, UK"
+      },
+      "edition": "20th Anniversary Edition",
+      "language": "English",
+      "pageCount": 320,
+      "format": "Hardcover",
+      "description": "Harry Potter and the Sorcerer's Stone is the first novel in the Harry Potter series written by J.K. Rowling. The story follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday when he receives a letter of acceptance to the Hogwarts School of Witchcraft and Wizardry.",
+      "averageRating": 4.8,
+      "numberOfRatings": 800,
+      "price": 15.99,
+      "availability": "In Stock"
+    },
+
+    {
+      "bookId": 5,
+      "title": "Pride and Prejudice",
+      "cover": "assets/images/pride-and-prejudice.jpg",
+      "author": {
+        "authorId": 5,
+        "authorName": "Jane Austen",
+        "birthDate": "1775-12-16",
+        "deathDate": "1817-07-18",
+        "biography": "Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "1813-01-28",
+      "isbn": "9780141439518",
+      "publisher": {
+        "publisherId": 5,
+        "publisherName": "Penguin Classics",
+        "foundedDate": "1935-07-30",
+        "hqLocation": "London, UK"
+      },
+      "edition": "Reprint Edition",
+      "language": "English",
+      "pageCount": 432,
+      "format": "Paperback",
+      "description": "Pride and Prejudice, published in 1813, is a romantic novel by Jane Austen. It follows the emotional development of protagonist Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential.",
+      "averageRating": 4.7,
+      "numberOfRatings": 700,
+      "price": 11.99,
+      "availability": "In Stock"
+    },
+    {
+      "bookId": 6,
+      "title": "The Catcher in the Rye",
+      "cover": "assets/images/catcher-in-the-rye.jpg",
+      "author": {
+        "authorId": 6,
+        "authorName": "J.D. Salinger",
+        "birthDate": "1919-01-01",
+        "deathDate": "2010-01-27",
+        "biography": "J.D. Salinger was an American writer best known for his novel 'The Catcher in the Rye'. He led a very private life after the success of his novel and was known for his reclusiveness."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "1951-07-16",
+      "isbn": "9780316769488",
+      "publisher": {
+        "publisherId": 6,
+        "publisherName": "Little, Brown and Company",
+        "foundedDate": "1837-01-01",
+        "hqLocation": "New York, USA"
+      },
+      "edition": "Reissue Edition",
+      "language": "English",
+      "pageCount": 224,
+      "format": "Hardcover",
+      "description": "The Catcher in the Rye, published in 1951, is a novel by J.D. Salinger. It is known for its distinctive narrative voice and its sensitive treatment of adolescent themes of alienation and identity. The novel explores the life of 16-year-old Holden Caulfield in the days following his expulsion from prep school.",
+      "averageRating": 4.4,
+      "numberOfRatings": 600,
+      "price": 13.99,
+      "availability": "Out of Stock"
+    },
+
+    {
+      "bookId": 7,
+      "title": "The God of Small Things",
+      "cover": "assets/images/the-god-of-small-things.jpg",
+      "author": {
+        "authorId": 7,
+        "authorName": "Arundhati Roy",
+        "birthDate": "1961-11-24",
+        "deathDate": null,
+        "biography": "Arundhati Roy is an Indian author and political activist. She is best known for her novel 'The God of Small Things', which won the Man Booker Prize for Fiction in 1997 and became the biggest-selling book by a non-expatriate Indian author."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "1997-04-04",
+      "isbn": "9780812979657",
+      "publisher": {
+        "publisherId": 7,
+        "publisherName": "Random House",
+        "foundedDate": "1927-02-28",
+        "hqLocation": "New York, USA"
+      },
+      "edition": "20th Anniversary Edition",
+      "language": "English",
+      "pageCount": 336,
+      "format": "Paperback",
+      "description": "The God of Small Things, published in 1997, is the debut novel of Indian author Arundhati Roy. It is a story about two fraternal twins Estha and Rahel, who live in the Indian state of Kerala. The novel is a narrative of how the small things in life build up, translate into people's behavior, and affect lives.",
+      "averageRating": 4.2,
+      "numberOfRatings": 450,
+      "price": 14.99,
+      "availability": "In Stock"
+    },
+    {
+      "bookId": 8,
+      "title": "The White Tiger",
+      "cover": "assets/images/the-white-tiger.jpg",
+      "author": {
+        "authorId": 8,
+        "authorName": "Aravind Adiga",
+        "birthDate": "1974-10-23",
+        "deathDate": null,
+        "biography": "Aravind Adiga is an Indian-Australian writer and journalist. He is best known for his debut novel 'The White Tiger', which won the Man Booker Prize in 2008. The novel explores the themes of globalization, social mobility, and the dark side of Indian society."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "2008-09-29",
+      "isbn": "9781416562603",
+      "publisher": {
+        "publisherId": 8,
+        "publisherName": "Free Press",
+        "foundedDate": "1947-04-15",
+        "hqLocation": "New York, USA"
+      },
+      "edition": "Reprint Edition",
+      "language": "English",
+      "pageCount": 304,
+      "format": "Paperback",
+      "description": "The White Tiger, published in 2008, is a novel by Indian author Aravind Adiga. It is a darkly humorous and unsettling portrayal of modern India's social and economic inequalities. The story follows Balram Halwai, a poor villager who becomes a successful entrepreneur in India's rapidly growing economy.",
+      "averageRating": 4.6,
+      "numberOfRatings": 700,
+      "price": 12.99,
+      "availability": "In Stock"
+    },
+    {
+      "bookId": 9,
+      "title": "Midnight's Children",
+      "cover": "assets/images/midnights-children.jpg",
+      "author": {
+        "authorId": 9,
+        "authorName": "Salman Rushdie",
+        "birthDate": "1947-06-19",
+        "deathDate": null,
+        "biography": "Salman Rushdie is a British-Indian novelist and essayist. He is best known for his novel 'Midnight's Children', which won the Booker Prize in 1981 and was awarded the 'Booker of Bookers' Prize in 1993, commemorating the best novel to have won the Booker Prize in its first 25 years."
+      },
+      "genre": {
+        "genreId": 1,
+        "genreName": "Fiction"
+      },
+      "publicationDate": "1981-09-25",
+      "isbn": "9780140238944",
+      "publisher": {
+        "publisherId": 9,
+        "publisherName": "Penguin Books",
+        "foundedDate": "1935-07-30",
+        "hqLocation": "London, UK"
+      },
+      "edition": "Reissue Edition",
+      "language": "English",
+      "pageCount": 536,
+      "format": "Paperback",
+      "description": "Midnight's Children, published in 1981, is a novel by Salman Rushdie. It follows the life of Saleem Sinai, born at the stroke of midnight on August 15, 1947, the same time as India's independence from British rule. The novel is a chronicle of Indian history, blending magical realism with historical events.",
+      "averageRating": 4.4,
+      "numberOfRatings": 550,
+      "price": 11.99,
+      "availability": "In Stock"
+    }
+  ]
+}

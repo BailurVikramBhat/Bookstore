@@ -1,0 +1,34 @@
+<div class="container py-4">
+  <p class="display-4">Welcome to the bookstore!</p>
+  <p>
+    Find all books available our store here. Click on the respective books to
+    learn more!
+  </p>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+      <div class="col" *ngFor="let book of books">
+        <div class="card mb-3 bg-body-tertiary" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-12 bg-dark-subtle">
+              <h5 class="card-header text-center">{{ book.title }}</h5>
+            </div>
+            <div class="col-md-5">
+              <img
+                src="{{ book.cover }}"
+                class="card-img-top cover-img"
+                alt=""
+              />
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h6 class="card-title">{{ getSubtitle(book) }}</h6>
+                <p class="card-text">{{ book.description }}</p>
+                <button class="btn btn-outline-primary">read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
